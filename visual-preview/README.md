@@ -1,0 +1,1 @@
+This section will contain some webp formats that you can view to see what we want this CRM to look like.
