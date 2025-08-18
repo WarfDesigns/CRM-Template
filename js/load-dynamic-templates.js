@@ -1,3 +1,6 @@
+
+/*This file loads dynamic templates used for the building the website*/
+
 //This function loads a template from a given URL and inserts it into an element with the specified ID
 function loadTemplate(url, elementId) {
   fetch(url)
