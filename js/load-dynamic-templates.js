@@ -25,6 +25,6 @@ loadTemplate('/dynamic-templates/app-menu.html', 'appMenu');
 loadTemplate('/dynamic-templates/footer-menu', 'footerMenu');
 loadTemplate('/dynamic-templates/error.html', 'error');
 loadTemplate('/dynamic-templates/footer.html', 'footer');
-loadTemplate('/dynamic-templates/header-menu.html', 'headerMenu');
-loadTemplate('/dynamic-templates/header.html', 'header');
+loadTemplate('/dynamic-templates/top-menu.html', 'topMenu');
+loadTemplate('/dynamic-templates/head.html', 'head');
 });
