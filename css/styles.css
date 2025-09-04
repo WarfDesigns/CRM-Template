@@ -291,6 +291,52 @@ footer a {
     display: none;
 }
 
+/* Desktop Menu Styles */
+
+.top-menu {
+    display: block;
+    color: white;
+    background-color: #056b38;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.top-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-menu li {
+    margin: 0 15px;
+}
+
+.top-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: block;
+}
+
+.top-menu a:hover {
+    background-color: #07773f;
+    border-radius: 5px;
+}
+
+.top-menu-container {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 0;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
 /* Header Styles*/
 .h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

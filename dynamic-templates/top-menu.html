@@ -1,0 +1,8 @@
+<section class="top-menu-container">
+    <nav class="top-menu">
+        <ul>
+            {% for item in site.data.top-menu %}
+                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+        </ul>
+</section>
